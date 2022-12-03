@@ -1,9 +1,3 @@
-.cabecalho {
-	position: relative;
-	width: 940px;
-	margin: 0 0 20px 0;
-}
-
 html {
     /*colors: 
 	13293D
@@ -16,7 +10,23 @@ html {
 	00008B
 	C1C1C1*/
     background: #247BA0;
-    padding: 20px 0;
+    padding: 0 0 20px 0;
+	max-width: 100%;
+}
+
+.cabecalho {
+	position: relative;
+	width: 100%;
+	height: 75px;
+	margin: 0 0 20px 0;
+	background: #247BA0;
+	
+}
+
+.conteudo {
+	border: #000000 solid;
+	border-width: 10px;
+	margin: 0 300px;
 }
 
 ul {
@@ -25,10 +35,11 @@ ul {
 	vertical-align: top;
 	width: 20%;
 	margin-right: 15%;
+	padding: 20px 0;
 }
 
 nav {
-	margin-left: 700px;
+	margin-left: 650px;
 }
 
 nav a {
@@ -64,8 +75,23 @@ nav li {
 	
 }
 
-.text {
+.fundo {
+	width: 100%;
+	position: absolute;
+  	z-index: -1;
+	/*border: 15px solid #247BA0;*/
+}
+
+.title{
+	text-align: center;
+	margin-left: 100px;
+	style= "font-family:Georgia;"
+	font-size: 30px
+
+}
+
+.text {	
 	text-align: center;
 	margin-left: 100px
-
+	style="Georgia"
 }
